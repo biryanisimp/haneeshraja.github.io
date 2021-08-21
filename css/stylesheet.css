@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Noto+Sans+KR:wght@300&family=Quicksand&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;1,200&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+:root {
+    --bg-color: #edf0f1
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+
+/*  Header Starts Here */
+
+li, a, button {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFBE74;
+}
+
+.ncloudlink-para {
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+header {
+        font-family: 'Prompt', sans-serif;
+        font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: var(--bg-color)
+    
+}
+
+.logo {
+    cursor: pointer;
+    float: left;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition:  all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #FFBE74;
+}
+
+/*  Header Ends Here */
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(255, 60, 118);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(255, 100, 146, 0.8);
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.h1font {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0
+}
+
+.intro {
+    background-color: #FFBE74;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.2)
+}
+
+/* Featured Projects Starts Here */
+
+.fp {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featuredcontent {
+    padding-top: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .featuredcontent {
+        padding-top: 0px;
+    }
+}
+
+/* Featured Project Ends Here */
+
+/* Cards Begin */
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FFBE74;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 270px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: white;
+}
+
+button {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    background-color: rgb(255, 60, 118);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 30%
+}
+
+button:hover {
+    background-color: rgba(206, 22, 77, 0.8);
+} 
+
+.card-image {
+    height: 150px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.cardp {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blog {
+    background-image: url(../img/cards/blog.png);
+}
+
+.socials {
+    background-image: url(../img/cards/socials.png);
+    width: 270px;
+    height: 150px;
+}
+
+.aboutt {
+    background-image: url(../img/cards/aboutme.png);
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s ease
+}
+
+/* Cards End */
+
+.skills {
+    margin-top: 100px;
+} 
+
+.skillset {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.skillpara {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* Footer Starts Here */
+
+footer {
+    background-color:#FFBE74 ;
+    align-items: center;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.displayimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding-top: 30px;
+}
+.aboutme {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.socials-footer {
+    margin-top: 15px;
+}
+
+.footer-text {
+    font-size: 13px;
+}
+
+/* Footer Ends Here */

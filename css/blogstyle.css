@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Noto+Sans+KR:wght@300&family=Quicksand&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;1,200&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+:root {
+    --bg-color: #edf0f1
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    background-color: #ebebeb;
+}
+
+/*  Header Starts Here */
+
+li, a, button {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252a;
+    text-decoration: none;
+    background-color: white
+}
+
+header {
+        font-family: 'Prompt', sans-serif;
+        font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: white
+}
+
+.logo {
+    cursor: pointer;
+    float: left;
+    margin-right: auto;
+    background-color: white
+}
+
+.nav_links {
+    list-style: none;
+    background-color: white
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition:  all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #FFBE74;
+}
+
+.shadow {
+    height: 100px;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.2)
+}
+
+/* Blog Cards Start Here */
+
+.articles {
+    display: grid;
+    justify-content: center;
+}
+
+.barticle {
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.barticle-link {
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.breif {
+    background: rgb(255, 255, 255);
+    width: 800px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.breif-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    background: white;
+}
+
+/* Blog Breifs End Here */
+
+
+/* Breif Images Start Here 
+
+.breif1-image {
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.breif2-image {
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.breif3-image {
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+Breif Images End Here */
